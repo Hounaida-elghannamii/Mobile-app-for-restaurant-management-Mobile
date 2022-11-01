@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyFood">
+        <activity
+            android:name=".ConfActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BurgerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PaimActivity"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TacActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SandwActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JajActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SouActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SaladeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GratActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PommeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ParaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InscActivity"
+            android:exported="false" />
+
+
+        <activity
+            android:name=".PageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pizaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SowDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CateAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IntroActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
